@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width">
+    <title>urbanos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!--Logo da Página, priemeira navbar, com icones Bootstrap em svg-->
+    <div class="barraback">
+        <p class="logo"><a class="logolink" href="index.html">Urbanos</a></p>
+        <input class="barra" placeholder="pesquisar">
+        <a href="#">
+            <img class="svg" src="search.svg" alt="Lupa" height="30" width="30">
+        </a>
+        <a href="#">
+            <img class="svg2" src="person.svg" alt="Login" height="30" width="30">
+        </a>
+        <a href="#">
+            <img class="svg3" src="cart.svg" alt="Carrinho" height="28" width="28">
+        </a>
+    </div>
+    <!-- imagens do carrosel javascript -->
+    <div id="items-wrapper" class="carroseltop">
+        <div id="items">
+            <div class="item"><img class="carroselimg"
+                    src="https://live.staticflickr.com/65535/52934379739_63689b9020_h.jpg" /></div>
+            <div class="item"><img class="carroselimg"
+                    src="https://live.staticflickr.com/65535/52934228621_5428641332_h.jpg" /></div>
+            <div class="item"><img class="carroselimg"
+                    src="https://live.staticflickr.com/65535/52931225433_e454b445d9_h.jpg" /></div>
+        </div>
+    </div>
+    <!--Segunda Navbar bootstrap botões e "Sobre Nós"-->
+    <nav class="conteiner">
+        <ul class="produtos">
+            <li class="subproduto"><a href="#" class="but">Coturnos</a></li>
+            <li class="subproduto"><a href="#" class="but">SholderBags</a></li>
+            <li class="subproduto"><a href="#" class="but">Camisas</a></li>
+            <li class="subproduto"><a href="#" class="but">Acessórios</a></li>
+            <li class="subproduto"><a href="#" class="but">Jeans&Calças</a></li>
+        </ul>
+    </nav>
+    <div class="conteiner2">
+        <div class="conteiner21">
+            <a class="sobre" href="sobrenos.html"> O que é a Urbanos ?</a>
+        </div>
+    </div>
+    <!--Texto antecendente ao Carrosel Bootstrap-->
+    <div class="paragrafo1">
+        <p>A <strong>Urbanos</strong> acredita na moda <i>mesmo em ruas vazias!</i></p>
+    </div>
+    <div class="linha2">
+        <p class="texto">Acredite você também!</p>
+    </div>
+        
+    </div>
+    <!--Carrosel Bootstrap-->
+    <div class="tamanho" style="position: absolute; top: 95%; left: 10%; right: 10%;">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://assets.vogue.com/photos/614106359cf78c9b91b79868/master/w_1600%2Cc_limit/016-PhilOh_NYFWDay2.jpeg"
+                        class="d-block w-100" alt="image1" style="width: 1800px; height: 720px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://pauseonline.s3.eu-west-2.amazonaws.com/wp-content/uploads/2021/10/ollie_ali_palladium_27-1024x683.jpg"
+                        class="d-block w-100" alt="image2" style="width: 1800px; height: 720px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/lfw-ss19-day-4-tyler-joe-119-1537298995.jpg"
+                        class="d-block w-100" alt="image3" style="width: 1800px; height: 720px;">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section class="termino">
+        <div class="terminoconteudo">
+            <p><strong>Confira</strong> preços excelentes para todos andarem de forma única!</p>
+        </div>
+    </section>
+    <!--Lista de Produtos em pagina inicial-->
+    <section class="listaprodutos">
+        <div>
+            <ul class="listaprodutosorigin">
+                <li class="colunaimg">
+                    <img class="listaimg" src="https://img.irroba.com.br/fit-in/600x600/filters:fill(transparent):quality(80)/sanravis/catalog/cloe-metalizada-roxa.png"
+                        width="250px" height="230px">
+                    <p class="produtonome">Coturno Roxo Metálico</p>
+                    <p class="produtonome">R$120,00</p>
+                    <a class="confira" href="produtos.html">CONFIRA</a>
+                </li>
+                <li class="colunaimg">
+                    <img class="listaimg" src="https://s2.glbimg.com/m84a3cjGnoDc-NDmrRO7JO5KSaM=/e.glbimg.com/og/ed/f/original/2016/03/31/patches-jenas-1.jpg"
+                    width="250px" height="230px">
+                    <p class="produtonome">Jaqueta Street</p>
+                    <p class="produtonome">R$200,00</p>
+                    <a class="confira" href="produtos.html">CONFIRA</a>
+                </li>
+                <li class="colunaimg">
+                    <img  class="listaimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcYKoFwekkYHamEToHEWPYBDYDh8zoF3a9ccwBgvBwdpH9xL77hF8XwnbwHi7-sL3_B3w&usqp=CAU"
+                    width="250px" height="230px">
+                    <p class="produtonome">Touca Urban</p>
+                    <p class="produtonome">R$40,00</p>
+                    <a class="confira" href="produtos.html">CONFIRA</a>
+                </li>
+                <li class="colunaimg">
+                    <img class="listaimg" src="https://rsv-ink-images-production.s3.sa-east-1.amazonaws.com/images/product_v2/main_image/b1e108fca516dfc5257a5bec9dfebe80.webp"
+                    width="250px" height="230px">
+                    <p class="produtonome">Camisetas Urbanos</p>
+                    <p class="produtonome">R$50,00</p>
+                    <a class="confira" href="produtos.html">CONFIRA</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="listaprodutosorigin">
+                <li class="colunaimg">
+                    <img class="listaimg" src="https://static.zattini.com.br/produtos/sapato-casual-sandalo-farber-masculino/22/E10-0439-822/E10-0439-822_zoom1.jpg?ts=1660258842&?ims=544xhttps://static.zattini.com.br/produtos/sapato-casual-sandalo-farber-masculino/22/E10-0439-822/E10-0439-822_zoom1.jpg?ts=1660258842&?ims=1088x"
+                        width="250px" height="230px">
+                        <p class="produtonome">Sapato em Couro, Streets</p>
+                        <p class="produtonome">R$350,00</p>
+                        <a class="confira" href="produtos.html">CONFIRA</a>
+                </li>
+                <li class="colunaimg">
+                    <img class="listaimg" src="https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/pedwaeie/catalog/fotos-dos-produtos/pl-400-preto/sapato-social-masculino-oxford-derby-paraty-preto-2.jpg"
+                    width="250px" height="230px">
+                    <p class="produtonome">Sapato Social Oxford UrbanGLAM</p>
+                    <p class="produtonome">R$250,00</p>
+                    <a class="confira" href="produtos.html">CONFIRA</a>
+                </li>
+                <li class="colunaimg">
+                    <img  class="listaimg" src="https://static.zattini.com.br/produtos/bota-coturno-feminino-salto-grosso-preta/06/5D7-0006-006/5D7-0006-006_zoom1.jpg?ts=1645639803&ims=544x" width="250px" height="230px">
+                    <p class="produtonome">Coturno POWERNIGHT</p>
+                    <p class="produtonome">R$150,00</p>
+                    <a class="confira" href="produtos.html">CONFIRA</a>
+                </li>
+                <li class="colunaimg">
+                    <img class="listaimg" src="https://img.freepik.com/fotos-premium/botas-pretas-de-outono-e-inverno-femininas-com-forro-de-la-isolado-em-um-fundo_317451-159.jpg"
+                    width="250px" height="230px">
+                    <p class="produtonome">Coturno URBAN Social Spirit</p>
+                    <p class="produtonome">R$250,00</p>
+                    <a class="confira" href="produtos.html">CONFIRA</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="listaprodutosorigin">
+                <li class="colunaimg">
+                    <img class="listaimg" src="https://down-br.img.susercontent.com/file/c01d111b1d3157133a030c4199d2366e"
+                        width="250px" height="230px">
+                    <p class="produtonome">Cropped Urban SEXCASE</p>
+                    <p class="produtonome">R$80,00</p>
+                    <a class="confira" href="produtos.html">CONFIRA</a>
+                </li>
+                <li class="colunaimg">
+                    <img class="listaimg" src="https://cdn.shopify.com/s/files/1/0074/0238/9562/products/brinco-masculino-em-aco-universo-maschio-cod-06418-237899.jpg?v=1614405126"
+                    width="250px" height="230px">
+                    <p class="produtonome">Brincos CROSS Street</p>
+                    <p class="produtonome">R$50,00</p>
+                    <a class="confira" href="produtos.html">CONFIRA</a>
+                </li>
+                <li class="colunaimg">
+                    <img  class="listaimg" src="https://br.shadestation.com/media/thumbs/1500x937.5/media/product_images/Balenciaga-Sunglasses-BB0100S-001fw1500fh937.5.png"
+                    width="250px" height="230px">
+                    <p class="produtonome">Oculos BALENCIAGAxURBANOS</p>
+                    <p class="produtonome">R$1540,00</p>
+                    <a class="confira" href="produtos.html">CONFIRA</a>
+                </li>
+                <li class="colunaimg">
+                    <img class="listaimg" src="https://cdn.cliqueinc.com/posts/270646/denim-trends-2019-270646-1540227102783-main.700x0c.jpg"
+                    width="250px" height="230px">
+                    <p class="produtonome">Touca Urban</p>
+                    <p class="produtonome">R$50,00</p>
+                    <a class="confira" href="produtos.html">CONFIRA</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+<footer class="footercontainer">
+    <div class="footercontainer1">
+        <div class="conteinerlistafooter">
+            <div>
+                <ul class="listafooter">
+                    <p><strong>Fale Conosco</strong></p>
+                    <li><a class="Linkfooter" href="#">Ouvidoria</a></li>
+                    <li><a class="Linkfooter" href="#">UrbanosExpress</a></li>
+                    <li><a class="Linkfooter" href="#">Sobre</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="listafooter">
+                    <p><strong>Causas</strong></p>
+                    <li>Green Peace Brasil</li>
+                    <li>Animal Livre</li>
+                    <li>Moda sem Dor e Pele</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="listafooter">
+                    <p><strong>Ajuda e Suporte</strong></p>
+                    <li><a class="Linkfooter" href="#">Politica de Frete</a></li>
+                    <li><a class="Linkfooter" href="#"></a>Politica de Devolução</li>
+                    <li><a class="Linkfooter" href="#"></a>Politica de Segurança</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footercontainer2">
+            <div class="encontrenos">
+                <p><strong>Encontre-nos em:</strong></p>
+                <a class="encontrenosimg" href="#">
+                    <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" height="30" width="30"></igm>
+                </a>
+                <a class="encontrenosimg" href="#">
+                    <img src="https://cdn.icon-icons.com/icons2/2368/PNG/512/facebook_logo_icon_143786.png" height="30"
+                        width="30"></igm>
+                </a>
+                <a class="encontrenosimg" href="#">
+                    <img src="https://img.freepik.com/icones-gratis/whatsapp_318-162854.jpg" height="30" width="30">
+                    </igm>
+                </a>
+                <p><strong> Urbanos 2023 ©</strong></p>
+            </div>
+        </div>
+    </div>
+    <section class="fim">
+        Urbanos, é parte de um projeto pessoal, 2023, Todos os direitos reservados ©
+    </section>
+</footer>
+
+</body>
+
+</html>
